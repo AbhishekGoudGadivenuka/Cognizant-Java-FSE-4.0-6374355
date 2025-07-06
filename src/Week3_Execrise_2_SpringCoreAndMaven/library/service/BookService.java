@@ -9,7 +9,7 @@ public class BookService {
     }
 
     public void addBook(String bookName) {
-        System.out.println("BookService: Adding book - " + bookName);
+        System.out.println("BookService:- Adding book - " + bookName);
         bookRepository.saveBook(bookName);
     }
 }
