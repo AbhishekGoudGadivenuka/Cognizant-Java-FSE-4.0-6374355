@@ -20,4 +20,5 @@ public class SpringLearnApplication {
         Country country = (Country) context.getBean("country", Country.class);
         LOGGER.debug("Country : {}", country.toString());
     }
+    //
 }

@@ -22,7 +22,7 @@ public class AuthenticationController {
             String credentials = new String(credDecoded);
             String[] values = credentials.split(":", 2);
             String user = values[0];
-
+//
             String jwt = Jwts.builder()
                     .setSubject(user)
                     .setIssuedAt(new Date())
