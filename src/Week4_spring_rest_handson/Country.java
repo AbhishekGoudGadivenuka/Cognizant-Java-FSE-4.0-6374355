@@ -1,4 +1,4 @@
-package Week5_spring_rest_handson;
+package Week4_spring_rest_handson;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
